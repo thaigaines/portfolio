@@ -1,4 +1,6 @@
 .venv/
-node_modules
-.DS_Store
+node_modules/
+
 css/tailwind.min.css
+
+.DS_Store

@@ -33,3 +33,17 @@ img, video {
 .delay2 { animation-delay: 0.30s; }
 .delay3 { animation-delay: 0.45s; }
 .delay4 { animation-delay: 0.60s; }
+/* ===========================
+        CLASS DEFINITIONS
+=========================== */
+.hyperlink {transition: border-bottom-width 250ms;}
+.hyperlink:hover {
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+
+.hover-button {transition: background-color 250ms, color 250ms; border-color: black;}
+.hover-button:hover {
+    background-color: black;
+    color: white;
+}
