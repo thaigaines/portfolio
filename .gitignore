@@ -1,6 +1,2 @@
-.venv/
-node_modules/
-
+node_modules
 css/tailwind.min.css
-
-.DS_Store

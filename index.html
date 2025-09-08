@@ -16,7 +16,7 @@
 
             <div id="sticky-nav" class="sticky left-0 right-0 top-0 z-10 border-b-2 border-b-black bg-white">
                 <div class="flex items-center gap-8 py-3 mx-10 font-extrabold text-2xl">
-                        <a class="fadeInDown hyperlink" href="#top">Home</a>
+                        <a class="fadeInDown hyperlink" href="#">Home</a>
                         <a class="fadeInDown delay1 hyperlink" href="#projects">Projects</a>
                         <a class="fadeInDown delay2 hyperlink" href="#music">Music</a>
                         <a class="fadeInDown delay3 hyperlink" href="#connect">Connect</a>
@@ -24,9 +24,8 @@
                             <a class="fadeIntoYou delay4 hover-button px-1 border-4 border rounded-xl" href="#contact">Contact Me</a>
                         </div>
                 </div>
-            </div>
 
-            <a id="#top"></a>
+            </div>
 
             <div id="body-div1" class="flex flex-col gap-4 p-5 bg-[#212529]">
 
@@ -36,10 +35,11 @@
             </div>
         
             <!-- Intro Section -->
-            <div id="body-div2" class="flex-1 flex flex-col gap-4 p-4">
-                <img alt="thai gaines" class="self-center size-70 border-2 rounded-full" src="images/lacrimosa.jpeg">
+            <div id="body-div2" class="flex-1 flex flex-col gap-4 p-5">
+
+                <img alt="thai gaines" class="self-center size-70 border-2 rounded-full" src="images/the_dev.png">
                 <h2 id="about" class="self-center text-5xl font-extrabold">About</h2>
-                <p id="about-text">
+                <p id="about-text" class="mx-10">
                     Hi, I'm
                     <span class="font-bold">Thai Gaines</span>,
                     a Business Analytics and Information Systems undergrad at the University of South Florida.
@@ -51,47 +51,59 @@
 
             </div>
             <!-- Projects Section -->
-            <div id="body-div3" class="flex-1 flex flex-col gap-4 p-4 bg-[#212529] text-white">
+            <div id="body-div3" class="flex-1 flex flex-col gap-4 p-5 bg-[#212529] text-white">
 
-                <h2 id="projects" class="self-center text-5xl font-extrabold">Projects</h2>
+                <h2 id="projects" class="scroll-mt-20 self-center text-5xl font-extrabold">Projects</h2>
                 <h3 class="text-5xl font-bold">Project 1</h3>
                 <div class="flex my-3 border-2 border-white rounded-xl p-2">
                     <p class="flex-1">
-                        Description
+                        (None listed yet)
                     </p>
                     <p class="flex-1">
-                        Image (change to img tag soon)
+                        (Images coming soon...)
                     </p>
                 </div>
-                <p>
+                <p class="mx-10">
                     More coming soon...
                 </p>
 
             </div>
 
-            <div id="body-div4" class="flex-1 flex flex-col gap-4 p-4">
-                <h2 id="music" class="self-center text-5xl font-extrabold">Music</h2>
-                <p>
-                    I think it is important to have several outlets to fill yourself out as a person.
-                    Being a musician has always been incredibly important to me and creating music has deeply shaped who I am and how I work through my obstacles.
+            <!-- Music Section -->
+            <div id="body-div4" class="flex-1 flex flex-col gap-4 p-5">
+
+                <h2 id="music" class="scroll-mt-20 self-center text-5xl font-extrabold">Music</h2>
+                <p class="mx-10">
+                    I think it is vitally important to have several outlets to develop yourself as a person.
+                    Being a musician has been crucially important to my own development and creativity, and I attributye much of my success as an analytical  and critical thinker to my experience creating music.
                 </p>
                 <iframe id="spotify-embed" class="rounded-xl" src="https://open.spotify.com/embed/artist/65oMgzK0T2AmKHGLdYpqKE?utm_source=generator&theme=0"
                         width="100%" height="352" frameBorder="0"
                         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
                 </iframe>
+
             </div>
 
-            <div id="body-div5" class="flex-1 flex flex-col gap-4 p-4 bg-[#212529] text-white">
+            <!-- Connect Section -->
+            <div id="body-div5" class="flex-1 flex flex-col gap-4 p-5 bg-[#212529] text-white">
 
                 <h2 id="connect" class="self-center text-5xl font-extrabold">Connect With Me</h2>
-                <p>
-                    Stuff about connecting adn networking blah blah blah
+                <p class="mx-10">
+                    (Insert networking info)
                 </p>
-                
+
             </div>
+
+            <!-- Contact Form -->
+            <div id="body-div6" class="flex-1 flex flex-col gap-4 p-5">
+
+                <h2 id="contact" class="scroll-mt-20 self-center text-5xl font-extrabold">Contact Me</h2>
+
+            </div>
+
+            <!-- Social and Contact Icons -->
             <footer id="social-icons" class="flex justify-center items-center gap-8 m-1 py-2 border-2 rounded-2xl border-gray-500 bg-black">
-                
-                <!-- Social and Contact Icons -->
+
                 <a href="mailto:thaiagaines@gmail.com?subject=Portfolio Contact&body=Hello, ">
                     <img alt="email" class="inline-block size-10" src="./images/gmail.png">
                 </a>
@@ -108,6 +120,7 @@
             </footer>
 
         </div>
+
         <script src="./scripts/scripts.js"></script>
     </body>
     

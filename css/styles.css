@@ -36,7 +36,7 @@ img, video {
 /* ===========================
         CLASS DEFINITIONS
 =========================== */
-.hyperlink {transition: border-bottom-width 250ms;}
+.hyperlink {transition: border-bottom-width 150ms;}
 .hyperlink:hover {
     border-bottom-width: 3px;
     border-bottom-style: solid;
