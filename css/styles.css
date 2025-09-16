@@ -1,12 +1,10 @@
-/* ===========================
-        GLOBAl RESET
-=========================== */
+/* Resets */
 *, *::before, *::after {
     box-sizing: border-box;
 }
 
 html { scroll-behavior: smooth; }
-body { margin: 0; }
+body { margin: 0; padding: 0;}
 
 img, video {
     display: block;
@@ -14,9 +12,7 @@ img, video {
     height: auto;
 }
 
-/* ===========================
-        ANIMATION
-=========================== */
+/* Animation */
 @keyframes fadeInDown {
     from { opacity: 0; transform: translateY(-20px); }
     to { opacity: 1; transform: translateY(0); }
@@ -33,9 +29,8 @@ img, video {
 .delay2 { animation-delay: 0.30s; }
 .delay3 { animation-delay: 0.45s; }
 .delay4 { animation-delay: 0.60s; }
-/* ===========================
-        CLASS DEFINITIONS
-=========================== */
+
+/* Classes */
 .hyperlink {transition: border-bottom-width 150ms;}
 .hyperlink:hover {
     border-bottom-width: 3px;
